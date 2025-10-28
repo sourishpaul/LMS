@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "lms-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/lmsDashboard/LmsDashboardWebPart.js",
+          "manifest": "./src/webparts/lmsDashboard/LmsDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LmsDashboardWebPartStrings": "lib/webparts/lmsDashboard/loc/{locale}.js"
+  }
+}

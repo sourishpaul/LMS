@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "lms",
+    "libraryId": "0603dd65-ee5a-4028-a062-3a84f39546b7",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "LMS",
+    "solutionShortDescription": "LMS description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
